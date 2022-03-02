@@ -6,18 +6,18 @@
 <body>
     <form action="">
         <p>
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" title="Introduce your name" autocomplete="name"/><br>
+            <label for="name">Name:*</label>
+            <input type="text" name="name" id="name" title="Introduce your name" autocomplete="name" required="required" placeholder="Pepe"/><br>
             <label for="surname">Surname:</label>
-            <input type="text" name="surname" id="surname" title="Introduce your surname" autocomplete="additional-name"/><br>
-            <label for="birth0">Date of Birth:</label>
+            <input type="text" name="surname" id="surname" title="Introduce your surname" autocomplete="additional-name" placeholder="Navarro"/><br>
+            <label for="birth">Date of Birth:</label>
             <input type="date" name="date" id="date" title="Introduce your date of birth" autocomplete="bday"/><br>
             <label for="email">e-mail:</label>
-            <input type="email" name="email" id="email" title="Introduce your email" autocomplete="email"/><br>
+            <input type="email" name="email" id="email" title="Introduce your email" autocomplete="email" placeholder="example@example.com"/><br>
             <label for="phone">Phone Number:</label>
-            <input type="tel" name="phone" id="phone" title="Introduce your phone number"/><br>
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" title="Introduce your password" autocomplete="current-password"/><br>
+            <input type="tel" name="phone" id="phone" title="Introduce your phone number" placeholder="123456789"/><br>
+            <label for="password">Password:*</label>
+            <input type="password" name="password" id="password" title="Introduce your password" autocomplete="current-password" required="required" placeholder="1234"/><br>
             <label for="color">Favourite Color:</label>
             <input type="color" name="color" id="color" title="Introduce your favourite color"/><br>
         </p>
